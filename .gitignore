@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+
+# Local environment variables - DO NOT COMMIT!
+.env
+
+# Google API secret files - DO NOT COMMIT!
+credentials.json
+token.json
+
+# Local secrets file - DO NOT COMMIT TO GITHUB
+.streamlit/secrets.toml
